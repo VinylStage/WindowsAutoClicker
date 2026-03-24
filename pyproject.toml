@@ -1,0 +1,24 @@
+[project]
+name = "discord-autoclicker"
+version = "0.1.0"
+description = "디스코드 온라인 상태 유지를 위한 하이브리드(CLI/GUI) 오토클리커"
+authors = [
+    {name = "Your Name", email = "you@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pyautogui>=0.9.54",
+    "pynput>=1.7.7",
+    "customtkinter>=5.2.2"
+]
+
+[tool.poetry.group.dev.dependencies]
+pyinstaller = ">=6.10.0"
+
+[tool.poetry]
+packages = [{include = "autoclicker.py"}]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
