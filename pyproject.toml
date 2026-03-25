@@ -9,12 +9,10 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "pyautogui>=0.9.54",
-    "pynput>=1.7.7",
-    "customtkinter>=5.2.2"
+    "keyboard>=0.13.5",
+    "customtkinter>=5.2.2",
+    "pyinstaller>=6.10.0"
 ]
-
-[tool.poetry.group.dev.dependencies]
-pyinstaller = ">=6.10.0"
 
 [tool.poetry]
 packages = [{include = "autoclicker.py"}]
