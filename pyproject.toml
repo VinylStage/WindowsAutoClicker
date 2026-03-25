@@ -1,7 +1,7 @@
 [project]
-name = "discord-autoclicker"
+name = "windows-autoclicker"
 version = "0.1.0"
-description = "디스코드 온라인 상태 유지를 위한 하이브리드(CLI/GUI) 오토클리커"
+description = "윈도우 온라인 상태 유지를 위한 하이브리드(CLI/GUI) 오토클리커"
 authors = [
     {name = "Your Name", email = "you@example.com"}
 ]

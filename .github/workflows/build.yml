@@ -30,10 +30,10 @@ jobs:
 
     - name: Build with PyInstaller
       run: |
-        poetry run pyinstaller --noconfirm --onefile --windowed --name "DiscordAutoClicker_MasterPro" --collect-all customtkinter autoclicker.py
+        poetry run pyinstaller --noconfirm --onefile --windowed --name "WindowsAutoClicker_MasterPro" --collect-all customtkinter autoclicker.py
 
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
       with:
-        name: DiscordAutoClicker-Windows
-        path: dist/DiscordAutoClicker_MasterPro.exe
+        name: WindowsAutoClicker-Windows
+        path: dist/WindowsAutoClicker_MasterPro.exe

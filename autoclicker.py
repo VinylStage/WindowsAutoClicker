@@ -169,7 +169,7 @@ class AutoClickerApp:
         self.root.geometry("480x620")
         self.root.resizable(False, False)
 
-        ctk.CTkLabel(self.root, text="Discord AutoClicker", font=("Pretendard", 28, "bold")).pack(pady=20)
+        ctk.CTkLabel(self.root, text="Windows AutoClicker", font=("Pretendard", 28, "bold")).pack(pady=20)
 
         self.interval_entries = self.create_time_input(self.root, "1. 클릭 간격 (Interval)", 5)
         self.duration_entries = self.create_time_input(self.root, "2. 총 실행 시간 (Timer)", 0)

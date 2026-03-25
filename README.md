@@ -1,6 +1,6 @@
-# 🎮 Discord AutoClicker Master Pro
+# 🎮 Windows AutoClicker Master Pro
 
-디스코드 온라인 상태 유지를 위한 가장 강력하고 정밀한 마우스 오토클리커입니다.  
+윈도우 온라인 상태 유지를 위한 가장 강력하고 정밀한 마우스 오토클리커입니다.  
 사용자 친화적인 GUI 환경에서 클릭 간격, 실행 타이머, 조합 단축키 및 실시간 통계 기능을 제공합니다.
 
 ---
@@ -11,7 +11,7 @@
 - **실행 타이머 (Timer)**: 지정된 시간이 경과하면 프로그램이 자동으로 안전하게 종료됨.
 - **조합 단축키 (Combination)**: `Ctrl`, `Shift`, `Alt` 등을 포함한 전역 조합키 드롭다운 선택.
 - **확장형 통계 대시보드**: 총 클릭 횟수, 경과 시간, 남은 시간 및 클릭 수를 실시간으로 확인.
-- **자리비움 방지 (Jiggle)**: 클릭 직전 미세하게 마우스를 움직여 디스코드 상태 감지 우회.
+- **자리비움 방지 (Jiggle)**: 클릭 직전 미세하게 마우스를 움직여 윈도우 상태 감지 우회.
 - **안전장치 (Fail-Safe)**: 마우스를 모니터 구석으로 밀면 즉시 비상 정지.
 
 ---
@@ -33,7 +33,7 @@ poetry run python autoclicker.py
 ### 3. EXE 파일 빌드
 ```powershell
 # PyInstaller를 이용한 클린 빌드
-poetry run pyinstaller --noconfirm --onefile --windowed --name "DiscordAutoClicker" --collect-all customtkinter autoclicker.py
+.\venv\Scripts\pyinstaller --noconfirm --onefile --windowed --name "DiscordAutoClicker" --collect-all customtkinter autoclicker.py
 ```
 
 ---
